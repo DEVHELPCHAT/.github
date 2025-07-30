@@ -55,4 +55,4 @@ If you wish to contribute directly by fixing errors or making improvements to th
 
 ---
 
-Thank you for helping us build a great community!
+Thank you for helping us build a great community! 
