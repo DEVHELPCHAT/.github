@@ -34,6 +34,7 @@ DevHelpChat is revolutionizing tech recruitment with **ZERO commission hiring!**
 * We prioritize trust and integrity. Any fraudulent activity will lead to immediate legal action.
 
 Find the perfect talent for your needs, efficiently and affordably.
+Join our discord:- https://discord.gg/wzdZ3uuarJ
 
 ---
 
@@ -41,5 +42,5 @@ Find the perfect talent for your needs, efficiently and affordably.
 
 ---
 
-<p align="center">Repo by DEVHELPCHAT. The notes are powered by FLASH PROGRAMS PROJECT DEPARTMENT.</p>
+
 <p align="center">&copy; 2025 DEVHELPCHAT. All rights reserved.</p>
