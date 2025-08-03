@@ -5,7 +5,7 @@
 ---
 
 <!-- STATS-START -->
-Updating stats... <!-- this will be replaced by the script -->
+Loading... <!-- this will be replaced by the script -->
 <!-- STATS-END -->
 
 ---
