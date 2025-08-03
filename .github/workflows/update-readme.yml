@@ -21,6 +21,8 @@ jobs:
         run: npm install node-fetch@2 chartjs-node-canvas@4 fs-extra
 
       - name: Generate README
+        env:
+          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
         run: node .github/scripts/update-readme.js
 
       - name: Commit Changes
@@ -30,4 +32,3 @@ jobs:
           git add README.md
           git commit -m "chore: update org dashboard [skip ci]" || echo "No changes"
           git push
-          
