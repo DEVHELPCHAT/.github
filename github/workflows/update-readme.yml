@@ -1,0 +1,33 @@
+name: Update Org Dashboard
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install node-fetch@2 chartjs-node-canvas@4 fs-extra
+
+      - name: Generate README
+        run: node .github/scripts/update-readme.js
+
+      - name: Commit Changes
+        run: |
+          git config user.name 'DEVHELPCHAT BOT'
+          git config user.email 'devhelpchat@gmail.com'
+          git add README.md
+          git commit -m "chore: update org dashboard [skip ci]" || echo "No changes"
+          git push
+          
