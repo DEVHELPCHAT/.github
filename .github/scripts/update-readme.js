@@ -111,7 +111,7 @@ _Last updated: ${new Date().toUTCString()}_
 }
 
 async function updateProfileReadme() {
-  const readmePath = path.join(__dirname, '..', 'profile', 'README.md');
+  const readmePath = path.join(__dirname, '..', '..', 'profile', 'README.md');
   const startMarker = '<!-- STATS-START -->';
   const endMarker = '<!-- STATS-END -->';
 
