@@ -2,7 +2,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 
 const ORG = 'DEVHELPCHAT';
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
+const GITHUB_TOKEN = process.env.GITHUBTOKEN || '';
 
 async function fetchRepos() {
   const res = await fetch(`https://api.github.com/orgs/${ORG}/repos?per_page=100`, {
