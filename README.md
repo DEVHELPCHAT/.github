@@ -42,3 +42,19 @@ Beyond GitHub, we cultivate a vibrant and supportive community where you can con
 
 <p align="center">Built with passion by DEVHELPCHAT.</p>
 <p align="center">&copy; 2025 DEVHELPCHAT. All rights reserved.</p>
+
+
+<!-- STATS-START -->
+## 🚀 DEVHELPCHAT Organization Stats
+
+| Metric        | Value          |
+| ------------- | -------------- |
+| ⭐ Stars      | **0** |
+| 🍴 Forks      | **0** |
+
+### 📊 Language Distribution (Top 6)
+
+**JavaScript  ** | ███████████████░░░░░ | 75.8%
+**HCL         ** | ███░░░░░░░░░░░░░░░░░ | 14.5%
+**PHP         ** | ██░░░░░░░░░░░░░░░░░░ | 9.7%
+<!-- STATS-END -->
